@@ -1,3 +1,4 @@
+
 "use client"
 import Link from "next/link";
 import { useState } from "react";
@@ -30,8 +31,7 @@ export default function Component() {
                     Discover Your Future
                   </h1>
                   <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                    Providing the tools and knowledge to help you find the
-                    career of your dreams.
+                    Providing the tools and knowledge to help you find the career of your dreams
                   </p>
                 </div>
                 <button onClick={handleContactUsClick} className="text-black inline-flex h-10 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300">
@@ -98,7 +98,7 @@ export default function Component() {
               </p>
             </div>
             <button onClick={handleConsultUsClick} className="text-black inline-flex h-10 items-center justify-center rounded-md border border-gray-200 border-gray-200 bg-white px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-800 dark:hover:text-gray-50 dark:focus-visible:ring-gray-300">
-                  Contact Us
+              Contact Us
             </button>
           </div>
         </section>
@@ -144,64 +144,65 @@ export default function Component() {
           </div>
         </section>
         <hr /> {/* Divider */}
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
-          <div className="container grid items-center gap-6 px-4 text-center md:px-6">
-            <div className="space-y-2">
-              <h2 className="text-black text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our programs</h2>
-              <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Our flagship programme, the &quot;Career Pathfinder: You are the Master of your own destiny&quot;
-                is a multi-phase intervention designed to empower high school learners with the tools they
-                need to navigate their future careers. This programme helps learners answer critical
-                questions such as:
+<section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100 dark:bg-gray-800">
+  <div className="container grid items-center gap-6 px-4 text-center md:px-6">
+    <div className="space-y-2">
+      <h2 className="text-black text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Our programs</h2>
+      <p className="mx-auto max-w-[600px] text-black md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+        Our flagship programme, the &quot;Career Pathfinder: You are the Master of your own destiny&quot;
+        is a multi-phase intervention designed to empower high school learners with the tools they
+        need to navigate their future careers. This programme helps learners answer critical
+        questions such as:
+      </p>
+    </div>
+    <div className="mx-auto w-full max-w-2xl grid gap-4 items-center justify-center sm:grid-cols-2 lg:gap-10">
+      <img
+        alt="Image"
+        className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
+        height="310"
+        src="./class.jpg"
+        width="550"
+      />
+      <div className="mx-auto space-y-4">
+        <ul className="grid gap-6">
+          <li>
+            <div className="grid gap-1">
+              <h3 className="text-black text-xl font-bold">Empowering South African Youth</h3>
+              <p className="text-black dark:text-gray-400">
+                Join us in shaping a brighter future for South African youth. Our Career Pathfinder Programme empowers learners to take control of their destinies.
               </p>
             </div>
-            <div className="mx-auto w-full max-w-2xl grid gap-4 items-center justify-center sm:grid-cols-2 lg:gap-10">
-              <img
-                alt="Image"
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full"
-                height="310"
-                src="./class.jpg"
-                width="550"
-              />
-              <div className="mx-auto space-y-4">
-                <ul className="grid gap-6">
-                  <li>
-                    <div className="grid gap-1">
-                      <h3 className="text-xl font-bold">Empowering South African Youth</h3>
-                      <p className="text-gray-500 dark:text-gray-400">
-                        Join us in shaping a brighter future for South African youth. Our Career Pathfinder Programme empowers learners to take control of their destinies.
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="grid gap-1">
-                      <h3 className="text-xl font-bold">Enhanced Career Readiness</h3>
-                      <p className="text-gray-500 dark:text-gray-400">
-                        Implemented during Life Orientation classes, it enhances career maturity, personal agency, self-efficacy, and goal-setting abilities, helping learners make informed career choices
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="grid gap-1">
-                      <h3 className="text-xl font-bold">Community Partnership</h3>
-                      <p className="text-gray-500 dark:text-gray-400">
-                        We aim to partner with schools in the Western Cape Region to ensure every high school learner benefits. Contact us or donate to support a child's career journey to a successful career.
-                      </p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
+          </li>
+          <li>
+            <div className="grid gap-1">
+              <h3 className="text-black text-xl font-bold">Enhanced Career Readiness</h3>
+              <p className="text-black dark:text-gray-400">
+                Implemented during Life Orientation classes, it enhances career maturity, personal agency, self-efficacy, and goal-setting abilities, helping learners make informed career choices
+              </p>
             </div>
-          </div>
-        </section>
+          </li>
+          <li>
+            <div className="grid gap-1">
+              <h3 className="text-black text-xl font-bold">Community Partnership</h3>
+              <p className="text-black dark:text-gray-400">
+                We aim to partner with schools in the Western Cape Region to ensure every high school learner benefits. Contact us or donate to support a child's career journey to a successful career.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
         <hr /> {/* Divider */}
-        <section className="w-full py-6 md:py-12">
+        <section className="flex flex-col items-center justify-center w-full py-6 md:py-12">
           <div className="container grid items-center gap-4 px-4 md:px-6">
             <div className="flex flex-col items-center justify-center">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
                 Sponsor a Learner for Career Guidance & Support
               </h2>
-              <p className="max-w-[600px]  text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+              <p className="max-w-[600px] text-center  text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                 Help us provide mentorship and resources to learners interested in tech careers. Your sponsorship will make
                 a difference in their lives.
               </p>
