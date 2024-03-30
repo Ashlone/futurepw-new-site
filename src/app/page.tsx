@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { FaChevronRight, FaRegCalendarAlt, FaMedal, FaBook, FaGraduationCap, FaLaptop, FaBaby, FaSchool } from "react-icons/fa";
 import { GoMilestone } from "react-icons/go";
-import ContactModal from "./components/modal"
+import ContactModal from "./components/modal";
 
 export default function Component() {
 
@@ -226,7 +226,7 @@ export default function Component() {
   );
 }
 
-function ServiceItem({ icon, title}: { icon: React.ReactNode; title: string; link: string; }) {
+function ServiceItem({ icon, title, link }: { icon: React.ReactNode; title: string; link: string; }) {
   return (
     <div className="flex flex-col items-center gap-2">
       {icon}
@@ -238,3 +238,4 @@ function ServiceItem({ icon, title}: { icon: React.ReactNode; title: string; lin
     </div>
   );
 }
+

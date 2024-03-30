@@ -1,18 +1,16 @@
-
 export default function Component() {
   return (
     <>
       <section className="w-full py-6 md:py-12 lg:py-16">
         <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-2">
-            
             <p className="text-3xl font-bold tracking-tighter sm:text-5xl">We help you succeed</p>
           </div>
           <img
-              alt="About Us"
-              className="mx-auto rounded-xl object-cover object-center sm:w-full lg:w-auto"
-              src="./services.jpg"
-            />
+            alt="About Us"
+            className="mx-auto rounded-xl object-cover object-center sm:w-full lg:w-auto"
+            src="./services.jpg"
+          />
           <div className="max-w-[700px] mx-auto text-gray-500 md:text-xl/relaxed dark:text-gray-400">
             <p>
               Our team is dedicated to providing the best services to our customers. We offer a wide range of solutions
@@ -68,5 +66,3 @@ export default function Component() {
     </>
   );
 }
-
-
