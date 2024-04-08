@@ -28,7 +28,7 @@ const Component: React.FC<ComponentProps> = ({ isOpen, onClose }) => {
               <FaPhone /> Call Us Directly
             </Button>
             <Button
-              onClick={() => window.open("mailto:dtmazhawidza@gmail.com")}
+              onClick={() => window.open("mailto:info@futurepathways.org.za.")}
             >
               <FaEnvelope /> Send an Email
             </Button>

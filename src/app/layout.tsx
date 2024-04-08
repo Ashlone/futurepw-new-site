@@ -17,11 +17,13 @@ export default function RootLayout({
     <html lang="en">
       
       <body className={inter.className}>
-      <NextUIProvider>
+      <main className="max-w-screen-lg mx-auto">
+        <NextUIProvider>
       <Nav/>
         {children}
         <Footer/>
       </NextUIProvider>
+      </main>
         </body>
         
     </html>
