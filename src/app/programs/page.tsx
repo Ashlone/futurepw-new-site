@@ -15,14 +15,14 @@ export default function ProgramsPage() {
     },
     {
       title: 'Community Partnership',
-      description: 'We aim to partner with schools in the Western Cape Region to ensure every high school learner benefits. Contact us or donate to support a child\'s career journey to a successful career.',
+      description: 'We aim to partner with schools in the Gauteng Region to ensure every high school learner benefits. Contact us or donate to support a child\'s career journey to a successful career.',
       imageSrc: './programme3.jpg',
     },
   ];
 
   return (
     <>
-      <section className="w-full py-6 md:py-12 lg:py-16">
+      <section className="w-full mt-20 py-6 md:py-12 lg:py-16">
         <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-2">
             <p className="text-3xl font-bold tracking-tighter sm:text-5xl">Our programs</p>
@@ -57,7 +57,7 @@ function ProgramSection({ title, description, imageSrc }: Program) {
       <img alt={title} src={imageSrc} className="mx-auto w-full rounded-lg object-cover" />
       <div className="space-y-2">
         <h3 className="text-2xl font-bold">{title}</h3>
-        <p className="text-gray-500 dark:text-gray-400">{description}</p>
+        <p className="text-justify text-gray-500 dark:text-gray-400">{description}</p>
       </div>
     </div>
   );

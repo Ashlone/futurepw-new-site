@@ -4,8 +4,8 @@ export default function SponsorshipDetails() {
   return (
     <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
       <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">Sponsor a Learner for Career Guidance & Support</h2>
-      <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-black">
-        Help us provide mentorship and resources to learners interested in tech careers. Your sponsorship will make a difference in their lives.
+      <p className="mx-auto text-justify max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-black">
+      Donate as little as R100 to help learners with career guidance and support
       </p>
       <div className="relative w-full overflow-auto">
         <table className="w-full caption-bottom text-sm">

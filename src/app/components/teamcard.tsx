@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import {
   Card,
-  CardHeader,
   CardBody,
   Image,
   Button,
@@ -45,20 +44,24 @@ const TeamCard = ({ name, title, bio, image }: TeamMember) => {
           )}
           <p className="mt-5 text-tiny uppercase font-bold">{title}</p>
           <h4 className="font-bold text-large">{name}</h4>
-          <Button
+          {
+            bio && (
+              <Button
             className="bg-[#E8C316] mt-5"
             size="sm"
             onClick={handleOpenModal}
           >
             Read Bio
           </Button>
+            )
+          }
         </CardBody>
       </Card>
       <Modal isOpen={isOpen} onOpenChange={handleCloseModal}>
         <ModalContent>
           <ModalHeader>{name}</ModalHeader>
           <ModalBody style={{ maxHeight: "70vh", overflowY: "auto" }}>
-            <p>{bio}</p>
+            <p className="text-justify">{bio}</p>
           </ModalBody>
           <ModalFooter>
             <Button color="danger" onClick={handleCloseModal}>

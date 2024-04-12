@@ -81,7 +81,8 @@ facilitate effective learning experiences tailored to diverse needs of each indi
     },
     {
       name: "DR Rubina Setlhare",
-      title: "Senior Lecturer Department of Education (UWC), Board Member, Qualified Educational Psychologist & Facilitator",
+      title:
+        "Senior Lecturer Department of Education (UWC), Board Member, Qualified Educational Psychologist & Facilitator",
       bio: `
       Dr Rubina Setlhare is a senior lecturer at the University of the Western Cape. She is a Senior Lecturer
       at the Department of Educational Psychology. Rubina focuses on community psychology, childhood
@@ -113,40 +114,52 @@ facilitate effective learning experiences tailored to diverse needs of each indi
       image: "./rubina.jpg",
     },
     {
-      name: "DR Tapiwa Chipunza",
+      name: "DR Kudakwashe Chipunza",
       title: "Board Member & Researcher",
       bio: `
-      Kudakwashe holds a doctorate in Development Finance from Stellenbosch University and a Master
-of Commerce in Finance (cum laude) from the University of KwaZulu Natal. He is currently a research
-fellow under the Deputy Executive Secretary at the United Nations Economic Commission of Africa
-in Ethiopia. Kudakwashe has previously served as a part-time lecturer in microeconomics and
-business finance at the undergraduate level at the University of KwaZulu Natal. In South Africa, he
-has been involved in the monitoring and evaluation of saving group projects at a non-governmental
-organization called SaveAct. His passion lies in social protection and mitigating poverty vulnerability
-in developing countries. Outside office hours, he is involved in voluntary work and hiking.
+       Kudakwashe holds a doctorate in Development Finance from Stellenbosch University and a Master of Commerce in 
+       Finance (cum laude) from the University of KwaZulu Natal. He is currently a research fellow under the
+       Deputy Executive Secretary at the United Nations Economic Commission of Africa in Ethiopia.  
+       Kudakwashe has previously served as a part-time lecturer in microeconomics and business finance at the 
+       undergraduate level at the University of KwaZulu Natal. In South Africa, he has been involved in the monitoring
+       and evaluation of saving group projects at a non-governmental organization called SaveAct. His passion lies in 
+       social protection and mitigating poverty vulnerability in developing countries. Outside office hours, he is 
+       involved in voluntary work and hiking. 
       `,
-      image: "",
+      image: "./kudakwashe.chipunza.jpg",
     },
     {
       name: "Amanda Glaeser",
       title: "Board Member, Qualified Industrial Psychologist & Facilitator",
-      bio: "Max is a coding wizard who turns ideas into reality. He leads our development team with skill and precision.",
+      bio: `
+      Amanda has retired from a 40 year plus successful career. More recently she left the role of Executive Director:
+      Human Resources (HR) in Higher Education (HE). (15 years at UWC and 16 months at CPUT-post retirement
+      contract)
+      These roles comprised the full spectrum of HR work, content, and context work, as well as executive level
+      accountabilities for the universities.
+      Her area of specialization, apart from the generalist HR role, is helping people learn at an individual level
+      (training and coaching); and Organization Excellence work for teams and divisions (OD/OE). She has a
+      particular flair to facilitate change and Transformation.
+      Prior to working in HE she was with Woolworths for 15 years, first as a generalist HR practitioner managing
+      the HR-function for Gauteng and the Northern regions; and the last 5 years in Cape Town Head Office as an
+      executive-managing national training and development.
+      `,
       image: "",
     },
     {
       name: "Dintle Tshwaragano",
       title: "Board Member, Treasurer & Career Content Creator",
-      bio: "Max is a coding wizard who turns ideas into reality. He leads our development team with skill and precision.",
+      bio: "",
       image: "./dintle.jpg",
     },
     {
       name: "Dr Toni Sylvester",
-      title: "Lecturer, Board Member, Qualified Educational Psychologist & Facilitator",
-      bio: "Max is a coding wizard who turns ideas into reality. He leads our development team with skill and precision.",
+      title:
+        "Lecturer, Board Member, Qualified Educational Psychologist & Facilitator",
+      bio: "",
       image: "",
     },
   ];
-  
 
   return (
     <div className="relative bg-black-50 py-12 lg:py-24">
@@ -160,7 +173,7 @@ in developing countries. Outside office hours, he is involved in voluntary work 
           <div className="grid gap-4 sm:gap-8 lg:gap-12">
             <div className="grid gap-4">
               <h2 className="text-2xl font-bold tracking-tight">Who are we</h2>
-              <p className="text-gray-500 dark:text-gray-400">
+              <p className="text-gray-500 text-justify dark:text-gray-400">
                 Future Pathways, a registered NPC, stands at the forefront of a
                 critical mission to tackle youth unemployment in South Africa
                 with unwavering dedication. We understand that true change goes
@@ -181,48 +194,57 @@ in developing countries. Outside office hours, he is involved in voluntary work 
                 drive this vision.
               </p>
             </div>
+            <hr className="border-t-2 border-[#CA0101]" /> {/* Divider */}
             <div className="grid gap-4">
               <h2 className="text-2xl font-bold tracking-tight">Our Mission</h2>
-              <p className="text-gray-500 dark:text-gray-400">
+              <p className="text-gray-500 text-justify dark:text-gray-400">
                 We strive to highlight the importance of career awareness and
                 education within the South African context.
               </p>
             </div>
+            <hr className="border-t-2 border-[#CA0101]" /> {/* Divider */}
             <div className="grid gap-4">
               <h2 className="text-2xl font-bold tracking-tight">Vision</h2>
-              <p className="text-gray-500 dark:text-gray-400">
+              <p className="text-gray-500 text-justify dark:text-gray-400">
                 Our vision is to combat youth unemployment through career
                 guidance and support.
               </p>
             </div>
+            <hr className="border-t-2 border-[#CA0101]" /> {/* Divider */}
             <div className="grid gap-4">
               <h2 className="text-2xl font-bold tracking-tight">Our values</h2>
-              <ul className="text-gray-500 dark:text-gray-500 list-disc pl-6">
+              <ul className="text-gray-500 text-justify dark:text-gray-500 list-disc pl-6">
                 <li>
-                  <b className="text-black">Continuous Development</b>: We are always learning, adapting, and
-                  evolving to ensure that we provide the most effective and
-                  relevant support to high school learners.
+                  <b className="text-black">Continuous Development</b>: We are
+                  always learning, adapting, and evolving to ensure that we
+                  provide the most effective and relevant support to high school
+                  learners.
                 </li>
                 <li>
-                <b className="text-black">Passion</b>: We believe that passion is the driving force behind
-                  our commitment to creating a brighter future for the next
-                  generation.
+                  <b className="text-black">Passion</b>: We believe that passion
+                  is the driving force behind our commitment to creating a
+                  brighter future for the next generation.
                 </li>
                 <li>
-                <b className="text-black">Social Change</b>: We are devoted to building a society where
-                  every youth has equal access to opportunities.
+                  <b className="text-black">Social Change</b>: We are devoted to
+                  building a society where every youth has equal access to
+                  opportunities.
                 </li>
                 <li>
-                <b className="text-black">Diversity</b>: We understand that every individual is unique, with
-                  their own dreams, challenges, and strengths. By focusing on
-                  each person’s strengths and capabilities, we ensure attention
-                  is given tailored to the individual.
+                  <b className="text-black">Diversity</b>: We understand that
+                  every individual is unique, with their own dreams, challenges,
+                  and strengths. By focusing on each person’s strengths and
+                  capabilities, we ensure attention is given tailored to the
+                  individual.
                 </li>
               </ul>
             </div>
+            <hr className="border-t-2 border-[#CA0101]" /> {/* Divider */}
             <section>
-            <h2 className="text-2xl font-bold tracking-tight">Meet the team</h2>
-              <p className="text-gray-500 dark:text-gray-400">
+              <h2 className="text-2xl font-bold tracking-tight">
+                Meet the team
+              </h2>
+              <p className="text-gray-500 text-justify dark:text-gray-400">
                 Our dedicated team is committed to guiding high school learners
                 through their career journeys, ensuring they are well-prepared
                 for the future. Our team includes:

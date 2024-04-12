@@ -1,11 +1,11 @@
 import Link from "next/link";
-import { FiMail } from "react-icons/fi";
+import { FiFacebook, FiInstagram, FiLinkedin } from "react-icons/fi";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#093103] text-white py-8 md:py-12">
+    <footer className="bg-[#093103] text-white py-12 md:py-16">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4 md:px-6">
         <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
           <Link href="/programs" className="text-xs hover:underline underline-offset-4">
@@ -49,7 +49,18 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="border-t border-gray-400 mt-4 md:mt-6 px-4 md:px-6">
+      <div className="flex items-center justify-center mt-10">
+        <Link href="https://www.facebook.com/futurepathawaysconsultants" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
+          <FiFacebook />
+        </Link>
+        <Link href="https://www.instagram.com/future_pathways_consultants_" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
+          <FiInstagram />
+        </Link>
+        <Link href="https://www.linkedin.com/company/75671692/admin/feed/posts/" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
+          <FiLinkedin />
+        </Link>
+      </div>
+      <div className="border-t border-gray-400 mt-6 px-4 md:px-6">
         <p className="text-xs text-center text-gray-400">
           © {currentYear} FUTURE PATHWAYS CONSULTANTS. All rights reserved.
         </p>

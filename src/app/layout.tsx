@@ -4,6 +4,7 @@ import "./globals.css";
 import Nav from "./components/nav"
 import {NextUIProvider} from "@nextui-org/react";
 import Footer from "./components/footer"
+import Partner from "./components/partner";
 const inter = Inter({ subsets: ["latin"] });
 
 

@@ -1,8 +1,6 @@
 "use client";
-import Link from "next/link";
 import { useState } from "react";
 import {
-  FaChevronRight,
   FaRegCalendarAlt,
   FaMedal,
   FaBook,
@@ -18,6 +16,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Banking from "./components/banking";
 import { Image } from "@nextui-org/react";
+import Link from "next/link";
+
 
 export default function Component() {
   const [consultModalOpen, setConsultModalOpen] = useState<boolean>(false);
@@ -66,37 +66,55 @@ export default function Component() {
           </button>
         </div>
         <div className="mt-10 justify-center items-center">
-  <Slider {...settings}>
-    <Image
-      className="max-w-full h-auto"
-      src="/hero.jpg"
-      width={400}
-      height={300} 
-    />
-    <Image
-      className="max-w-full h-auto"
-      src="/hero2.jpg"
-      width={400}
-      height={300} 
-    />
-    <Image
-      className="max-w-full h-auto"
-      src="/hero3.jpg"
-      width={400}
-      height={300} 
-    />
-  </Slider>
-</div>
+          <Slider {...settings}>
+            <Image
+              className="max-w-full h-auto"
+              src="/hero.jpg"
+              width={400}
+              height={300}
+            />
+            <Image
+              className="max-w-full h-auto"
+              src="/hero2.jpg"
+              width={400}
+              height={300}
+            />
+            <Image
+              className="max-w-full h-auto"
+              src="/hero3.jpg"
+              width={400}
+              height={300}
+            />
+            <Image
+              className="max-w-full h-auto"
+              src="/hero4.jpg"
+              width={400}
+              height={300}
+            />
+            <Image
+              className="max-w-full h-auto"
+              src="/hero5.jpg"
+              width={400}
+              height={300}
+            />
+            <Image
+              className="max-w-full h-auto"
+              src="/hero6.jpg"
+              width={400}
+              height={300}
+            />
+          </Slider>
+        </div>
       </section>
-      <hr />
+      <hr className="border-t-2 border-[#CA0101]" /> {/* Divider */}
       <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
-            <div className="space-y-2">
+            <div className="space-y-2 flex flex-col items-center justify-center">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Explore Our Services
               </h2>
-              <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-black">
+              <p className="max-w-[900px] text-justify text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-black">
                 At Future Pathways Consultants, we are committed to providing
                 comprehensive career guidance and support to high school
                 learners in South Africa. Our services are tailored to meet the
@@ -148,14 +166,14 @@ export default function Component() {
           </div>
         </div>
       </section>
-      <hr /> {/* Divider */}
-      <section className="w-full bg-[#093103] py-12 md:py-24 lg:py-32 xl:py-48">
+      
+      <section className="w-full bg-[#093103]  py-12 md:py-24 lg:py-32 xl:py-48">
         <div className="container flex flex-col items-center justify-center space-y-4 px-4 md:px-6">
           <div className="text-center space-y-2">
             <h1 className="text-4xl text-white font-bold tracking-tighter sm:text-5xl md:text-6xl">
               Find Your Path
             </h1>
-            <p className="max-w-[600px] text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-black">
+            <p className="max-w-[600px] text-justify text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-black">
               Your career guidance for high school learners.
             </p>
           </div>
@@ -168,56 +186,55 @@ export default function Component() {
           </button>
         </div>
       </section>
-      <section className="w-full py-12 md:py-24 lg:py-32 border-t">
-        <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
-          <div className="space-y-3">
-            <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-              How It Works
-            </h2>
-            <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-black">
-              We provide learners with the tools and resources they need to
-              explore career options, connect with mentors, and access
-              educational opportunities.
-            </p>
-          </div>
-          <div className="mx-auto w-full max-w-5xl grid gap-6 sm:grid-cols-2 lg:gap-10">
-            <div className="flex flex-col items-center space-y-2">
-              <FaBaby color="#093103" className="w-24 h-24" />
-              <div className="space-y-2 text-center">
-                <h3 className="font-bold">Explore</h3>
-                <p className="text-sm text-gray-500 md:text-base text-black">
-                  Learners can take career assessments and explore different
-                  career paths.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col items-center space-y-2">
-              <GoMilestone color="#093103" className="w-24 h-24" />
-              <div className="space-y-2 text-center">
-                <h3 className="font-bold">Connect</h3>
-                <p className="text-sm text-gray-500 md:text-base text-black">
-                  Access to mentorship programs where learners can connect with
-                  industry professionals.
-                </p>
-              </div>
-            </div>
-            <div className="flex flex-col items-center space-y-2">
-              <FaSchool color="#093103" className="w-24 h-24" />
-              <div className="space-y-2 text-center">
-                <h3 className="font-bold">Learn</h3>
-                <p className="text-sm text-gray-500 md:text-base text-black">
-                  Access to educational resources and information about
-                  scholarships and internships.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <hr /> {/* Divider */}
+      <Slider {...settings} className="mt-10">
+        <Image
+          className="max-w-full h-auto"
+          src="/hero7.jpg"
+          width={400}
+          height={300}
+        />
+        <Image
+          className="max-w-full h-auto"
+          src="/hero8.jpg"
+          width={400}
+          height={300}
+        />
+        <Image
+          className="max-w-full h-auto"
+          src="/hero9.jpg"
+          width={400}
+          height={300}
+        />
+        <Image
+          className="max-w-full h-auto"
+          src="/hero10.jpg"
+          width={400}
+          height={300}
+        />
+        <Image
+          className="max-w-full h-auto"
+          src="/hero11.jpg"
+          width={400}
+          height={300}
+        />
+        <Image
+          className="max-w-full h-auto"
+          src="/hero12.jpg"
+          width={400}
+          height={300}
+        />
+        <Image
+          className="max-w-full h-auto"
+          src="/hero13.jpg"
+          width={400}
+          height={300}
+        />
+      </Slider>
+      <hr className="border-t-2 border-[#CA0101]" /> {/* Divider */}
       <section className="w-full py-12 md:py-24 lg:py-32 ">
         <Banking />
       </section>
+      
       <ContactModal
         isOpen={consultModalOpen || contactModalOpen}
         onClose={() => {
@@ -242,13 +259,7 @@ function ServiceItem({
     <div className="flex flex-col items-center gap-2">
       {icon}
       <h3 className="font-bold">{title}</h3>
-      <Link
-        href="/services"
-        className="inline-flex items-center text-[#E8C316] text-sm underline underline-offset-2"
-      >
-        Learn More
-        <FaChevronRight className="h-4 w-4 ml-1.5" />
-      </Link>
     </div>
   );
 }
+

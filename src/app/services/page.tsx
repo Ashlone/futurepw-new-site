@@ -1,13 +1,15 @@
+import Partner from "../components/partner";
+
 export default function ServicesComponent() {
   return (
     <>
-      <section className="w-full py-6 md:py-12 lg:py-16">
+      <section className="mt-20 w-full py-6 md:py-12 lg:py-16">
         <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-2">
-            <p className="text-3xl font-bold tracking-tighter sm:text-5xl">We help you succeed</p>
+            <p className="text-3xl  font-bold tracking-tighter sm:text-5xl">We help you succeed</p>
           </div>
           <div className="max-w-[700px] mx-auto text-gray-500 md:text-xl/relaxed dark:text-gray-400">
-            <p>
+            <p className="text-justify">
               Our team is dedicated to providing the best services to our customers. We offer a wide range of solutions
               to meet your needs. From consulting to implementation, we are here to help you succeed.
             </p>
@@ -42,6 +44,8 @@ export default function ServicesComponent() {
           />
         </div>
       </section>
+      <hr className="border-t-2 border-[#CA0101]" /> {/* Divider */}
+        <Partner/>
     </>
   );
 }
@@ -58,7 +62,7 @@ function ServiceSection({ title, description, imageSrc }:Service) {
       <img alt={title} src={imageSrc} className="mx-auto w-full rounded-lg object-cover" />
       <div className="space-y-2">
         <h3 className="text-2xl font-bold">{title}</h3>
-        <p className="text-gray-500 dark:text-gray-400">{description}</p>
+        <p className="text-gray-500 text-justify dark:text-gray-400">{description}</p>
       </div>
     </div>
   );

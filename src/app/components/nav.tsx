@@ -16,7 +16,7 @@ import ContactModal from "./modal";
 export default function Component() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = ["Home", "Services", "About", "Contact","Programs"];
+  const menuItems = ["services", "about", "programs"];
 
   const [modalOpen, setModalOpen] = useState<boolean>(false);
 
@@ -35,8 +35,9 @@ export default function Component() {
           className="sm:hidden"
           style={{ color: "black" }}
         />
+        {/* Render the logo */}
         <NavbarBrand>
-          <Link href="/">
+          <Link href="/" className="hidden sm:block">
             <img
               alt="Logo"
               className="mt-10 object-contain object-center sm:w-full lg:w-auto"
@@ -44,9 +45,20 @@ export default function Component() {
             />
           </Link>
         </NavbarBrand>
+        {/* Render the logo on the top right on smaller screens */}
+        <div className="sm:hidden absolute top-0 right-0 m-4">
+          <Link href="/">
+            <img
+              alt="Logo"
+              className="object-contain object-center w-50 h-50"
+              src="./logo.png"
+            />
+          </Link>
+        </div>
       </NavbarContent>
 
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
+        {/* Render the menu items */}
         <NavbarItem>
           <Link className="text-black" href="/">
             Home
@@ -57,8 +69,8 @@ export default function Component() {
             About
           </Link>
         </NavbarItem>
-        <NavbarItem >
-          <Link className="text-black" href="/services" >
+        <NavbarItem>
+          <Link className="text-black" href="/services">
             Services
           </Link>
         </NavbarItem>
@@ -80,7 +92,7 @@ export default function Component() {
       <NavbarMenu style={{ backgroundColor: "white" }}>
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
-            <Link className="w-full  text-black" href="#" size="lg">
+            <Link className="w-full  text-black" href={`/${item}`} size="lg">
               {item}
             </Link>
           </NavbarMenuItem>
@@ -90,3 +102,5 @@ export default function Component() {
     </Navbar>
   );
 }
+
+
