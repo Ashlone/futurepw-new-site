@@ -114,7 +114,7 @@ export default function Component() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                 Explore Our Services
               </h2>
-              <p className="max-w-[900px] text-justify text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-black">
+              <p className="max-w-[900px] text-justify word-spacing-2 text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-black">
                 At Future Pathways Consultants, we are committed to providing
                 comprehensive career guidance and support to high school
                 learners in South Africa. Our services are tailored to meet the
@@ -173,7 +173,7 @@ export default function Component() {
             <h1 className="text-4xl text-white font-bold tracking-tighter sm:text-5xl md:text-6xl">
               Find Your Path
             </h1>
-            <p className="max-w-[600px] text-justify text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-black">
+            <p className="max-w-[600px] text-justify word-spacing-2 text-white md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-black">
               Your career guidance for high school learners.
             </p>
           </div>

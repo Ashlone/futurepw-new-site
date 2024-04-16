@@ -173,7 +173,7 @@ facilitate effective learning experiences tailored to diverse needs of each indi
           <div className="grid gap-4 sm:gap-8 lg:gap-12">
             <div className="grid gap-4">
               <h2 className="text-2xl font-bold tracking-tight">Who are we</h2>
-              <p className="text-gray-500 text-justify dark:text-gray-400">
+              <p className="text-gray-500 word-spacing-1 text-justify dark:text-gray-400">
                 Future Pathways, a registered NPC, stands at the forefront of a
                 critical mission to tackle youth unemployment in South Africa
                 with unwavering dedication. We understand that true change goes

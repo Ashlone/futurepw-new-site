@@ -16,7 +16,20 @@ import ContactModal from "./modal";
 export default function Component() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = ["services", "about", "programs"];
+  const menuItems = [
+    {
+      link: "services",
+      title: "Services",
+    },
+    {
+      link: "about",
+      title: "About",
+    },
+    {
+      link: "programs",
+      title: "Programs",
+    },
+  ];
 
   const [modalOpen, setModalOpen] = useState<boolean>(false);
 
@@ -92,8 +105,12 @@ export default function Component() {
       <NavbarMenu style={{ backgroundColor: "white" }}>
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
-            <Link className="w-full  text-black" href={`/${item}`} size="lg">
-              {item}
+            <Link
+              className="w-full  text-black"
+              href={`/${item.link}`}
+              size="lg"
+            >
+              {item.title}
             </Link>
           </NavbarMenuItem>
         ))}
@@ -102,5 +119,3 @@ export default function Component() {
     </Navbar>
   );
 }
-
-

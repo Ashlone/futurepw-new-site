@@ -16,7 +16,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      
       <body className={inter.className}>
       <main className="max-w-screen-lg mx-auto">
         <NextUIProvider>
