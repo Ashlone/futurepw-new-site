@@ -76,7 +76,7 @@ facilitate effective learning experiences tailored to diverse needs of each indi
     {
       name: "DR Nina Barnes",
       title: "Qualified Industrial Psychologist, Board Member & Facilitator",
-      bio: "Eva is dedicated to ensuring our customers are happy. She is always ready to go the extra mile to solve their problems.",
+      bio: "",
       image: "./nina.jpg",
     },
     {
@@ -144,7 +144,7 @@ facilitate effective learning experiences tailored to diverse needs of each indi
       the HR-function for Gauteng and the Northern regions; and the last 5 years in Cape Town Head Office as an
       executive-managing national training and development.
       `,
-      image: "",
+      image: "./amanda.jpg",
     },
     {
       name: "Dintle Tshwaragano",
@@ -156,8 +156,10 @@ facilitate effective learning experiences tailored to diverse needs of each indi
       name: "Dr Toni Sylvester",
       title:
         "Lecturer, Board Member, Qualified Educational Psychologist & Facilitator",
-      bio: "",
-      image: "",
+      bio: `
+      Frederick (Toni) Sylvester was a lecturer in the Faculty of Education in the Department of Educational Psychology at the University of the Western Cape. He is a Registered Educational Psychologist with the HPCSA. Beginning his career as a teacher (Special needs), Dr Sylvester’s portfolio includes Educational Psychologist at the Centre for Student Counselling University of Stellenbosch, Lecturer Faculty of Education UCT, Faculty leader at the Centre for International Educational Exchange, (Awarded faculty Leader award at best out of 20 countries), Researcher, Juvenile Justice, Institute of Criminology UCT, Career Guidance Counsellor (Progress College). He has published in areas of Boys growing up with absent fathers, School Support Gender identity and Life skills. His latest contribution was a book chapter on Barriers to learning. Also, recently two books, “Claiming our Spaces…. Changing the World” compiled by grade 10 learners from the Cross Roads community and a collaborative project with Gender Dynamix, “Gender Identity and Gender Expression” in South African Schools. He has also presented papers at National and International conferences and in January 2019 and 2022 was a Keynote speaker at the Diversity conference in Bangalore, India. He is passionate and a campaigner for children’s rights and inclusion. He has participated in International research projects with universities in Sweden, Germany, Belgium and India.  His outreach and community involvement activities nationally and internationally have given him opportunities to travel to many different countries as a presenter, participant and activist.    
+      `,
+      image: "./toni.jpg",
     },
   ];
 
