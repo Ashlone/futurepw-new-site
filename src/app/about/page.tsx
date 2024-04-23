@@ -50,33 +50,32 @@ export default function Component() {
       name: "Phelo Sifile",
       title: "Co-Founder & Assistant Programme Director",
       bio: `
-      Phelo obtained a Bachelor of Arts Degree in Industrial / Organizational Psychology at the University of the
-Western Cape (UWC) in 2020. He then successfully completed his Honours in Economics focusing on
-employee development and organizational effectiveness at UWC in 2022.
-
-He is the Cofounder & Vice-Chairperson of The National Socio-Economic Support (TNSES) _ 240-957 NPO He is
-also the Director & Treasurer of Future Pathways Consultations (FPC) _ 2019/540588/08 NPC In 2019, Phelo
-traveled to the Middle East and Asia to enhance his understanding of cultural diversity, networking, and
-strengthening foreign relations. He enjoys interacting with people, especially talented youth that share common
-interests and worldviews on development and growth in communities, and the professional workplace. His
-interest in organizational development and growth, and his experiences as a student at the University of the
-Western Cape ignited a passion for the business world and working with people.
-
-His interest professionally shifted more towards human relations and the management of labour forces for
-organizations and businesses. He is an experienced tertiary academic assistant, with over 3 years of senior
-training and facilitatory experience being well equipped in training techniques and facilitation skills. He has a
-comprehensive understanding of UWC academic systems and business processes. He has high innovation and
-creativity focusing on training initiatives that positively influenced the working environments he has worked in. He
-possess firsthand experience in transferring essential system/user skills to contract staff, enhancing their
-capabilities during critical registration periods. His expertise in online and remote training methods allows me to
-facilitate effective learning experiences tailored to diverse needs of each individual.
+       Phelo obtained a BA Degree in Industrial Psychology at the University of the Western Cape (UWC) in 2020.
+       He then successfully completed his Honours in Economics, focusing on employee development and organizational 
+       effectiveness at UWC in 2022, where he is currently journeying to complete his Industrial Psychology Masters 
+       degree. He is a registered Student Psychologist with the Health Professions Council of South Africa (HPCSA) - PS S 01744211. 
+       He is the Co-Founder & Vice-Chairperson of The National Socio-Economic Support (TNSES) _ 240-957 NPO. He is also the Co-Founder & Assistant Programme Director of Future Pathways Consultations (FPC) _ 2019/540588/08 NPC. In 2019, Phelo travelled to the Middle East and Asia to enhance his understanding of cultural diversity, networking, and strengthening foreign relations.
+       His interest in organizational development and growth and his experiences as a student at the University of the Western Cape ignited a passion for the business world and working with people. 
+       His interest professionally shifted more towards human relations and the management of labour forces for organizations and businesses. He is an experienced tertiary academic HR Officer, with more than 3 years of senior training and facilitatory experience being well equipped in recruitment techniques and facilitation skills. He has high innovation and creativity, focusing on training initiatives that positively influence the working environments he has worked in. His expertise in online and remote training methods allows him to facilitate effective learning experiences tailored to the diverse needs of each individual. His primary objective aims to transfer all academic and job experience 
+      to youth in environments that lack the necessary resources and skills to thrive.
        `,
       image: "./phelo.jpg",
     },
     {
       name: "DR Nina Barnes",
-      title: "Qualified Industrial Psychologist, Board Member & Facilitator",
-      bio: "",
+      title: `Qualified Industrial Psychologist, Board Member & Facilitator`,
+      bio: `
+        Nina Barnes (pronouns: she/her) is a registered Industrial Psychologist (Health Professions Council of
+        South Africa) with a focus and passion for individual capacity development to support systemic
+        transformation and inclusion. She holds extensive organisational development and management
+        experience in higher education and research institutions with diverse historical backgrounds and
+        institutional cultures in the Western Cape, South Africa. Her experience includes contributing towards the
+        strategic conceptualisation of transformation interventions, while leading and supporting institutional
+        culture change initiatives, and leadership development programmes.
+        Nina holds a PhD in Industrial Psychology. Her research aims to address the need to invest in an
+        integrated capacity development approach for scholars, in order to unlock the potential of South Africans,
+        as a national priority. She believes that we have a responsibility to lift others as we grow.
+      `,
       image: "./nina.jpg",
     },
     {
