@@ -147,8 +147,31 @@ export default function Component() {
     },
     {
       name: "Dintle Tshwaragano",
-      title: "Board Member, Treasurer & Career Content Creator",
-      bio: "",
+      title: "Board Member, Treasurer",
+      bio: `
+      Dintle Nkosi brings over 12 years of finance expertise from renowned
+companies like Nestle, Santam, Burberry, PepsiCo, and Chanel. With a
+background in Internal Audit and Commercial Finance, she's well-versed
+in financial corporate practices. Dintle is Currently working as a
+Strategic Finance Manager in the United Kingdom.
+
+She holds a Bachelor of Commerce in Internal Audit from the University
+of Pretoria,a Postgraduate Diploma in Finance, Governance, and Risk
+Management from the University of South Africa, and a Postgraduate
+Diploma in Strategic Management from the University of Derby in the
+United Kingdom. She has recently completed a Masters in Strategic
+Management in 2024, from the University of Derby, with a dissertation
+focusing on career coaching and mentoring effectiveness.
+
+Beyond her professional achievements, Dintle is the Founder and Director
+of Thuto Thusa. She's a devoted wife and mother of three, with a passion
+for mentoring youth. Currently, Dintle is focused on expanding Thuto
+Thusa, creating apps and career guidance materials to empower young
+people to shape their futures. She believes that access to information
+and career guidance can play a vital role in addressing unemployment and
+poverty, fostering a more skilled and educated society, and reducing
+inequality.
+      `,
       image: "./dintle.jpg",
     },
     {
