@@ -4,7 +4,7 @@ export default function Component() {
   const team = [
     {
       name: "Dean Mazhawidza",
-      title: "Founder, Programme Director & Career Development Strategist",
+      title: "Founder Programme Director & Career Development Strategist| Industrial Psychologist",
       bio: ` Dean Mazhawidza is a passionate advocate for youth development and career guidance, dedicated
       to helping high school learners smoothly transition from secondary education to higher education
       and the world of work. In 2019, he founded Future Pathways Consultants to provide invaluable
@@ -63,7 +63,7 @@ export default function Component() {
     },
     {
       name: "DR Nina Barnes",
-      title: `Qualified Industrial Psychologist, Board Member & Facilitator`,
+      title: `Board Member | Industrial Psychologist & Facilitator`,
       bio: `
         Nina Barnes (pronouns: she/her) is a registered Industrial Psychologist (Health Professions Council of
         South Africa) with a focus and passion for individual capacity development to support systemic
@@ -81,7 +81,7 @@ export default function Component() {
     {
       name: "DR Rubina Setlhare",
       title:
-        "Senior Lecturer Department of Education (UWC), Board Member, Qualified Educational Psychologist & Facilitator",
+        "AI & Education Principal Investigator| Senior Lecturer (UWC)| Educational Psychologist",
       bio: `
       Dr Rubina Setlhare is a senior lecturer at the University of the Western Cape. She is a Senior Lecturer
       at the Department of Educational Psychology. Rubina focuses on community psychology, childhood
@@ -113,23 +113,14 @@ export default function Component() {
       image: "./rubina.jpg",
     },
     {
-      name: "DR Kudakwashe Chipunza",
-      title: "Board Member & Researcher",
-      bio: `
-       Kudakwashe holds a doctorate in Development Finance from Stellenbosch University and a Master of Commerce in 
-       Finance (cum laude) from the University of KwaZulu Natal. He is currently a research fellow under the
-       Deputy Executive Secretary at the United Nations Economic Commission of Africa in Ethiopia.  
-       Kudakwashe has previously served as a part-time lecturer in microeconomics and business finance at the 
-       undergraduate level at the University of KwaZulu Natal. In South Africa, he has been involved in the monitoring
-       and evaluation of saving group projects at a non-governmental organization called SaveAct. His passion lies in 
-       social protection and mitigating poverty vulnerability in developing countries. Outside office hours, he is 
-       involved in voluntary work and hiking. 
-      `,
-      image: "./kudakwashe.chipunza.jpg",
+      name: "Dr S. F. Chamisa",
+      title: "Rural Outreach Principal Investigator| Senior Lecturer (UFS)| Industrial Psychologist",
+      bio: `Dr S. F. Chamisa is a registered Industrial Psychologist and Senior Lecturer at the University of the Free State, South Africa. She has over nine years of experience in teaching and research in Industrial Psychology, with additional professional exposure in the Mining and Energy sectors.\n\nHer areas of focus include Organisational Development, Talent Management, Leadership Development, and Career Counselling. Her research interests centre on Positive Psychology (particularly employee wellness and performance), Diversity and Inclusion, and Human Capital Development.\n\nShe promotes research-informed teaching and prepares students for global, evolving work environments. Dr Chamisa teaches and supervises at undergraduate and postgraduate levels, including Honours, Master’s, and PhD. She has published in both local and international journals and is a member of HPCSA, BPS, and APA.`,
+      image: "./chamisa.png",
     },
     {
       name: "Amanda Glaeser",
-      title: "Board Member, Qualified Industrial Psychologist & Facilitator",
+      title: "Board Member | Industrial Psychologist & Facilitator",
       bio: `
       Amanda has retired from a 40 year plus successful career. More recently she left the role of Executive Director:
       Human Resources (HR) in Higher Education (HE). (15 years at UWC and 16 months at CPUT-post retirement
@@ -146,38 +137,9 @@ export default function Component() {
       image: "./amanda.jpg",
     },
     {
-      name: "Dintle Tshwaragano",
-      title: "Board Member, Treasurer",
-      bio: `
-      Dintle Nkosi brings over 12 years of finance expertise from renowned
-companies like Nestle, Santam, Burberry, PepsiCo, and Chanel. With a
-background in Internal Audit and Commercial Finance, she's well-versed
-in financial corporate practices. Dintle is Currently working as a
-Strategic Finance Manager in the United Kingdom.
-
-She holds a Bachelor of Commerce in Internal Audit from the University
-of Pretoria,a Postgraduate Diploma in Finance, Governance, and Risk
-Management from the University of South Africa, and a Postgraduate
-Diploma in Strategic Management from the University of Derby in the
-United Kingdom. She has recently completed a Masters in Strategic
-Management in 2024, from the University of Derby, with a dissertation
-focusing on career coaching and mentoring effectiveness.
-
-Beyond her professional achievements, Dintle is the Founder and Director
-of Thuto Thusa. She's a devoted wife and mother of three, with a passion
-for mentoring youth. Currently, Dintle is focused on expanding Thuto
-Thusa, creating apps and career guidance materials to empower young
-people to shape their futures. She believes that access to information
-and career guidance can play a vital role in addressing unemployment and
-poverty, fostering a more skilled and educated society, and reducing
-inequality.
-      `,
-      image: "./dintle.jpg",
-    },
-    {
       name: "Dr Toni Sylvester",
       title:
-        "Lecturer, Board Member, Qualified Educational Psychologist & Facilitator",
+        "Board Member | Educational Psychologist & Facilitator",
       bio: `
       Frederick (Toni) Sylvester was a lecturer in the Faculty of Education in the Department of Educational Psychology at the University of the Western Cape. He is a Registered Educational Psychologist with the HPCSA. Beginning his career as a teacher (Special needs), Dr Sylvester’s portfolio includes Educational Psychologist at the Centre for Student Counselling University of Stellenbosch, Lecturer Faculty of Education UCT, Faculty leader at the Centre for International Educational Exchange, (Awarded faculty Leader award at best out of 20 countries), Researcher, Juvenile Justice, Institute of Criminology UCT, Career Guidance Counsellor (Progress College). He has published in areas of Boys growing up with absent fathers, School Support Gender identity and Life skills. His latest contribution was a book chapter on Barriers to learning. Also, recently two books, “Claiming our Spaces…. Changing the World” compiled by grade 10 learners from the Cross Roads community and a collaborative project with Gender Dynamix, “Gender Identity and Gender Expression” in South African Schools. He has also presented papers at National and International conferences and in January 2019 and 2022 was a Keynote speaker at the Diversity conference in Bangalore, India. He is passionate and a campaigner for children’s rights and inclusion. He has participated in International research projects with universities in Sweden, Germany, Belgium and India.  His outreach and community involvement activities nationally and internationally have given him opportunities to travel to many different countries as a presenter, participant and activist.    
       `,
@@ -198,80 +160,43 @@ inequality.
             <div className="grid gap-4">
               <h2 className="text-2xl font-bold tracking-tight">Who are we</h2>
               <p className="text-gray-500 word-spacing-1 text-justify dark:text-gray-400">
-                Future Pathways, a registered NPC, stands at the forefront of a
-                critical mission to tackle youth unemployment in South Africa
-                with unwavering dedication. We understand that true change goes
-                beyond traditional career guidance; it embodies the core
-                principle of social justice. To reduce youth unemployment, we
-                believe in constructing an equitable system, where high school
-                learners of all backgrounds have equal opportunities. Our focus
-                is on leveling the playing field, and eliminating the stifling
-                impact of socioeconomic disparities on potential. By arming high
-                school learners with knowledge and skills for informed career
-                decisions, we empower them to overcome systemic barriers and
-                transition seamlessly into higher education and the world of
-                work. We are dedicated to leveling the playing field, ensuring
-                that no one's potential is hindered due to socioeconomic
-                disparities. Social justice isn't a buzzword; it's the bedrock
-                of our career development approach, shaping a more inclusive and
-                equitable future for South Africa's youth. Your support can
-                drive this vision.
+                Future Pathways Consultants (FPC) is a registered public beneficiary organisation (PBO) at the forefront of tackling youth unemployment in South Africa through transformative and socially just career development. We believe in breaking down systemic barriers and ensuring all school learners, regardless of background, can access meaningful career guidance and support.<br/><br/>
+                Our work extends beyond urban centres into under-resourced areas, including our Career Guidance in Rural Areas project in the Free State, where we equip learners with critical tools for post-school planning. We are also pioneering AI-assisted storytelling and career exploration for primary school learners in Gauteng and the Western Cape, using technology to plant early seeds of career identity. Our RIASEC Board Game, in partnership with Career Kit, developed locally, brings career exploration to life through gamification, helping learners understand their interests and connect them to real-world career paths.<br/><br/>
+                Our flagship Career Pathfinder Programme (CPP) empower youth with the knowledge, confidence, and self-awareness to make informed decisions, overcome inequality, and pursue fulfilling futures. Rooted in the values of equity and social justice, our mission is not only to inform, but to transform.
+              </p>
+            </div>
+            <hr className="border-t-2 border-[#CA0101]" /> {/* Divider */}
+            <div className="grid gap-4">
+              <h2 className="text-2xl font-bold tracking-tight">Our Vision</h2>
+              <p className="text-gray-500 text-justify dark:text-gray-400">
+                To be a pioneering force in career development and educational innovation across South Africa, ensuring every young person, regardless of background, can envision and realise a future filled with purpose and possibility.
               </p>
             </div>
             <hr className="border-t-2 border-[#CA0101]" /> {/* Divider */}
             <div className="grid gap-4">
               <h2 className="text-2xl font-bold tracking-tight">Our Mission</h2>
               <p className="text-gray-500 text-justify dark:text-gray-400">
-                We strive to highlight the importance of career awareness and
-                education within the South African context.
+                We empower South Africa’s youth, especially those in under-resourced communities, with innovative, evidence-based career guidance. Through technology, storytelling, and partnerships, we help learners explore their identity, make informed choices, and confidently navigate the world of work.
               </p>
             </div>
             <hr className="border-t-2 border-[#CA0101]" /> {/* Divider */}
             <div className="grid gap-4">
-              <h2 className="text-2xl font-bold tracking-tight">Vision</h2>
-              <p className="text-gray-500 text-justify dark:text-gray-400">
-                Our vision is to combat youth unemployment through career
-                guidance and support.
-              </p>
-            </div>
-            <hr className="border-t-2 border-[#CA0101]" /> {/* Divider */}
-            <div className="grid gap-4">
-              <h2 className="text-2xl font-bold tracking-tight">Our values</h2>
+              <h2 className="text-2xl font-bold tracking-tight">Our Values</h2>
               <ul className="text-gray-500 text-justify dark:text-gray-500 list-disc pl-6">
-                <li>
-                  <b className="text-black">Continuous Development</b>: We are
-                  always learning, adapting, and evolving to ensure that we
-                  provide the most effective and relevant support to high school
-                  learners.
-                </li>
-                <li>
-                  <b className="text-black">Passion</b>: We believe that passion
-                  is the driving force behind our commitment to creating a
-                  brighter future for the next generation.
-                </li>
-                <li>
-                  <b className="text-black">Social Change</b>: We are devoted to
-                  building a society where every youth has equal access to
-                  opportunities.
-                </li>
-                <li>
-                  <b className="text-black">Diversity</b>: We understand that
-                  every individual is unique, with their own dreams, challenges,
-                  and strengths. By focusing on each person’s strengths and
-                  capabilities, we ensure attention is given tailored to the
-                  individual.
-                </li>
+                <li><b className="text-black">🌱 Equity</b>: We are committed to levelling the playing field for all learners, especially those from disadvantaged communities, ensuring fair access to career opportunities and support.</li>
+                <li><b className="text-black">💡 Innovation</b>: We embrace emerging technologies and creative methods, like AI and gamification, to pioneer new ways of delivering career guidance that speaks to today’s and tomorrow’s world.</li>
+                <li><b className="text-black">🤝 Collaboration</b>: We believe in the power of partnerships with schools, communities, government departments, the private sector, universities, and organisations to drive sustainable and collective impact.</li>
+                <li><b className="text-black">🔥 Youth Empowerment</b>: We are driven by a passion to help young people discover their voice, potential, and purpose through personalised career interventions.</li>
+                <li><b className="text-black">🧭 Integrity</b>: We act with transparency, accountability, and respect, earning the trust of learners, families, and partners as we guide the next generation.</li>
               </ul>
             </div>
             <hr className="border-t-2 border-[#CA0101]" /> {/* Divider */}
             <section>
               <h2 className="text-2xl font-bold tracking-tight">
-                Meet the team
+                Meet our team
               </h2>
               <p className="text-gray-500 text-justify dark:text-gray-400">
-                Our dedicated team is committed to guiding high school learners
-                through their career journeys, ensuring they are well-prepared
-                for the future. Our team includes:
+                We are a diverse, multidisciplinary team committed to career equity, youth empowerment, and innovation.
               </p>
               <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:gap-4 xl:gap-6">
                 {team.map((member, index) => (

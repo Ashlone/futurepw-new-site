@@ -15,17 +15,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+   
     <html lang="en">
       <body className={inter.className}>
+      <NextUIProvider>
       <main className="max-w-screen-lg mx-auto">
-        <NextUIProvider>
-      <Nav/>
+        <Nav/>
         {children}
-        <Footer/>
-      </NextUIProvider>
+        <hr className="border-t-2 border-[#CA0101]" /> {/* Divider */}
+        <Partner/>
       </main>
+      <Footer/>
+      </NextUIProvider>
         </body>
-        
     </html>
     
   );

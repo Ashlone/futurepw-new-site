@@ -49,13 +49,12 @@ export default function Component() {
         <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-2 mt-20">
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-              Discover Your Future
+              WELCOME TO FUTURE PATHWAYS CONSULTANTS
             </h1>
           </div>
           <div className="max-w-[700px] mx-auto text-gray-500 md:text-xl/relaxed dark:text-gray-400">
             <p>
-              Providing the tools and knowledge to help you find the career of
-              your dreams
+              Empowering the Next Generation Through Career Innovation and Equity
             </p>
           </div>
           <button
@@ -106,20 +105,32 @@ export default function Component() {
           </Slider>
         </div>
       </section>
+      {/* OUR PURPOSE section */}
+      <section className="w-full py-8 md:py-12 bg-[#f5f5f5]">
+        <div className="container max-w-3xl mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">OUR PURPOSE</h2>
+          <p className="text-gray-700 md:text-lg">
+            Reducing youth unemployment through transformative career education. We see career guidance as a tool of social justice, and we are building an ecosystem where every learner—regardless of geography, gender, or economic background—has access to guidance, tools, and belief in their future.
+          </p>
+        </div>
+      </section>
       <hr className="border-t-2 border-[#CA0101]" /> {/* Divider */}
       <section className="w-full py-12 md:py-24 lg:py-32">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2 flex flex-col items-center justify-center">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Explore Our Services
+                What We Offer
               </h2>
               <p className="max-w-[900px] text-justify word-spacing-2 text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-black">
-                At Future Pathways Consultants, we are committed to providing
-                comprehensive career guidance and support to high school
-                learners in South Africa. Our services are tailored to meet the
-                specific needs of learners in Grades 9-12. Here is what we
-                offer:
+                We provide tailored support for learners in Grades 9–12, as well as interventions in primary schools through our AI and storytelling programmes. Our services are designed to break down systemic barriers and ensure all learners, regardless of background, can access meaningful career guidance and support. <br/><br/>
+                <b>Our Services Include:</b><br/>
+                • Career counselling and assessments<br/>
+                • Subject and degree guidance<br/>
+                • Personality and aptitude profiling<br/>
+                • Industry visits, guest speakers & workshops<br/>
+                • Internship and tertiary preparation support (Career Psychology)<br/>
+                • Educator & parent training on career topics
               </p>
             </div>
           </div>
@@ -128,12 +139,12 @@ export default function Component() {
               icon={
                 <FaMedal color="#093103" className="h-12 w-12 rounded-lg" />
               }
-              title="Career Guidance and Support"
+              title="Career Counselling & Assessments"
               link="#"
             />
             <ServiceItem
               icon={<FaBook color="#093103" className="h-12 w-12 rounded-lg" />}
-              title="Grade 9-10 Subject Choices"
+              title="Subject & Degree Guidance"
               link="#"
             />
             <ServiceItem
@@ -143,14 +154,14 @@ export default function Component() {
                   className="h-12 w-12 rounded-lg"
                 />
               }
-              title="Grade 11-12 Degree Choices"
+              title="Personality & Aptitude Profiling"
               link="#"
             />
             <ServiceItem
               icon={
                 <FaLaptop color="#093103" className="h-12 w-12 rounded-lg" />
               }
-              title="Career Guidance for Higher Education Students"
+              title="Industry Visits, Guest Speakers & Workshops"
               link="#"
             />
             <ServiceItem
@@ -160,7 +171,14 @@ export default function Component() {
                   className="h-12 w-12 rounded-lg"
                 />
               }
-              title="Career Events and Activities"
+              title="Internship & Tertiary Preparation Support"
+              link="#"
+            />
+            <ServiceItem
+              icon={
+                <GoMilestone color="#093103" className="h-12 w-12 rounded-lg" />
+              }
+              title="Educator & Parent Training"
               link="#"
             />
           </div>

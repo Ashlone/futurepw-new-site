@@ -26,6 +26,42 @@ export default function Partner() {
           width={400}
           height={300}
         />
+        <Image
+          className="max-w-full h-auto"
+          src="./partner4.jpeg"
+          width={400}
+          height={300}
+        />
+         <Image
+          className="max-w-full h-auto"
+          src="./partner5.jpeg"
+          width={400}
+          height={300}
+        />
+         <Image
+          className="max-w-full h-auto"
+          src="./partner6.jpeg"
+          width={400}
+          height={300}
+        />
+        <Image
+          className="max-w-full h-auto"
+          src="./partner7.jpeg"
+          width={400}
+          height={300}
+        />
+        <Image
+          className="max-w-full h-auto"
+          src="./partner8.jpeg"
+          width={400}
+          height={300}
+        />
+        <Image
+          className="max-w-full h-auto"
+          src="./partner9.jpeg"
+          width={400}
+          height={300}
+        />
       </div>
     </div>
   );

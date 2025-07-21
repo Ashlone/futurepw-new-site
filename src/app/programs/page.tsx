@@ -4,19 +4,25 @@ import React from 'react';
 export default function ProgramsPage() {
   const programs = [
     {
-      title: 'Empowering South African Youth',
-      description: 'Join us in shaping a brighter future for South African youth. Our Career Pathfinder Programme empowers learners to take control of their destinies.',
+      title: '🌍 Career Pathfinder Programme',
+      description: `Our flagship, multi-phase intervention programme helps Grade 6–12 learners from disadvantaged backgrounds develop career maturity, self-efficacy, academic motivation and long-term career vision. Delivered in collaboration with schools and NGOs, the programme is implemented during LO classes and school holidays. This programme helps learners answer critical questions such as:
+      \n- Who am I?\n- What are my interests, skills, values, personality styles?\n- What do I want?\n- What are my options?\n- How do I get there?\n- What am I willing to do?\n- What is my plan to get to the goal?`,
       imageSrc: './programme1.jpg',
     },
     {
-      title: 'Enhanced Career Readiness',
-      description: 'Implemented during Life Orientation classes, it enhances career maturity, personal agency, self-efficacy, and goal-setting abilities, helping learners make informed career choices.',
+      title: '🧠 RIASEC Board Game (South Africa)',
+      description: `An engaging, gamified career exploration tool based on Holland’s RIASEC theory. The board game is designed to make career learning fun and interactive, especially for high school learners. Currently under the developmental phase for the Phase 2 Version rollout with support from career psychologists and researchers. In partnership with Career Kit, the game will be used as a learning tool, career guidance, and as a fun and informative game.`,
       imageSrc: './programme2.jpg',
     },
     {
-      title: 'Community Partnership',
-      description: 'We aim to partner with schools in the Gauteng Region to ensure every high school learner benefits. Contact us or donate to support a child\'s career journey to a successful career.',
+      title: '🤖 AI in Education: Narrative Identity for Primary Learners',
+      description: `Launching in 2027 and piloted in Gauteng and the Western Cape, this project, led by Dr Rubina Selthare, leverages AI-assisted storytelling to support primary school learners in understanding their future aspirations. This early intervention helps build career identity from a young age, using accessible digital tools.`,
       imageSrc: './programme3.jpg',
+    },
+    {
+      title: '🏞 Rural Career Development Project (Free State)',
+      description: `A targeted intervention aimed at bridging the rural-urban career support divide. This project, led by Dr Shingirayi Chamisa, brings mobile career services, workshops, and mentorship to underserved learners in rural areas in the Free State province.`,
+      imageSrc: './programme4.jpg',
     },
   ];
 

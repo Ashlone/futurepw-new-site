@@ -6,46 +6,56 @@ export default function ServicesComponent() {
       <section className="mt-20 w-full py-6 md:py-12 lg:py-16">
         <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-2">
-            <p className="text-3xl  font-bold tracking-tighter sm:text-5xl">We help you succeed</p>
+            <p className="text-3xl  font-bold tracking-tighter sm:text-5xl">What We Offer</p>
           </div>
           <div className="max-w-[700px] mx-auto text-gray-500 md:text-xl/relaxed dark:text-gray-400">
             <p className="text-justify">
-              Our team is dedicated to providing the best services to our customers. We offer a wide range of solutions
-              to meet your needs. From consulting to implementation, we are here to help you succeed.
+              We provide tailored support for learners in Grades 9–12, as well as interventions in primary schools through our AI and storytelling programmes.<br/><br/>
+              <b>Our Services Include:</b><br/>
+              • Career counselling and assessments<br/>
+              • Subject and degree guidance<br/>
+              • Personality and aptitude profiling<br/>
+              • Industry visits, guest speakers & workshops<br/>
+              • Internship and tertiary preparation support (Career Psychology)<br/>
+              • Educator & parent training on career topics
             </p>
           </div>
         </div>
       </section>
       <section className="w-full py-12 md:py-16">
         <div className="container grid items-start justify-center gap-6 px-4 md:gap-10 lg:grid-cols-2 lg:px-6 xl:gap-16">
-          {/* Career Guidance and Support */}
           <ServiceSection
-            title="Career Guidance and Support"
-            description="We provide expert guidance and support to help students make informed career choices. Our services include: conducting assessments, one-on-one counselling sessions, career exploration, and goal setting."
+            title="Career Counselling & Assessments"
+            description="Personalised career counselling and scientifically validated assessments to help learners understand their strengths, interests, and aptitudes."
             imageSrc="./service1.jpg"
           />
-          {/* Grade 9-10 Subject Choices */}
           <ServiceSection
-            title="Grade 9-10 Subject Choices"
-            description="We offer assistance in making the right subject choices to align with future career goals. Our services include: in-depth consultations, subject profiling, and insights into future career trends."
+            title="Subject & Degree Guidance"
+            description="Expert advice on subject selection (Grades 9–10) and degree/career pathway choices (Grades 11–12), ensuring alignment with learners’ goals and the world of work."
             imageSrc="./service2.jpg"
           />
-          {/* Grade 11-12 Degree Choices */}
           <ServiceSection
-            title="Grade 11-12 Degree Choices"
-            description="We provide guidance on selecting the right degree programs and educational pathways. Our services include: university and college research, course comparisons, and application assistance."
+            title="Personality & Aptitude Profiling"
+            description="Comprehensive profiling to help learners discover their unique personality styles and aptitudes, supporting informed career decisions."
             imageSrc="./service3.jpg"
           />
-          {/* Career Guidance for Higher Education Students */}
           <ServiceSection
-            title="Career Guidance for Higher Education Students"
-            description="We offer support for learners pursuing higher education, including university and vocational training. Our services include: scholarship information, internship opportunities, and networking support."
+            title="Industry Visits, Guest Speakers & Workshops"
+            description="Real-world exposure through industry visits, guest speakers, and interactive workshops, connecting learners with professionals and career opportunities."
+            imageSrc="./services.jpg"
+          />
+          <ServiceSection
+            title="Internship & Tertiary Preparation Support"
+            description="Support for learners transitioning to tertiary education or internships, including application guidance, interview preparation, and career psychology support."
             imageSrc="./service4.jpg"
+          />
+          <ServiceSection
+            title="Educator & Parent Training"
+            description="Workshops and resources for educators and parents to effectively support learners’ career development journeys."
+            imageSrc="./about.jpg"
           />
         </div>
       </section>
-      <hr className="border-t-2 border-[#CA0101]" /> {/* Divider */}
-        <Partner/>
     </>
   );
 }
