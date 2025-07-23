@@ -116,7 +116,13 @@ export default function Component() {
       name: "Dr S. F. Chamisa",
       title: "Rural Outreach Principal Investigator| Senior Lecturer (UFS)| Industrial Psychologist",
       bio: `Dr S. F. Chamisa is a registered Industrial Psychologist and Senior Lecturer at the University of the Free State, South Africa. She has over nine years of experience in teaching and research in Industrial Psychology, with additional professional exposure in the Mining and Energy sectors.\n\nHer areas of focus include Organisational Development, Talent Management, Leadership Development, and Career Counselling. Her research interests centre on Positive Psychology (particularly employee wellness and performance), Diversity and Inclusion, and Human Capital Development.\n\nShe promotes research-informed teaching and prepares students for global, evolving work environments. Dr Chamisa teaches and supervises at undergraduate and postgraduate levels, including Honours, Master’s, and PhD. She has published in both local and international journals and is a member of HPCSA, BPS, and APA.`,
-      image: "./chamisa.png",
+      image: "./dintle.jpg",
+    },
+    {
+      name: "Adrian Paulsen",
+      title: "Director of Operations",
+      bio: `Adrian Paulsen is a geographer with a focus on combining human geography and GIS. He is currently working as a data scientist in the private sector. He holds a Master’s degree from the University of the Western Cape and is currently completing his PhD. Adrian was also an NRF grant holder and is a Mandela-Rhodes Foundation scholar. His work focuses on social justice and he’s completed theses on issues of disability rights and food security. His latest research output is a chapter publication in the 1st edition of Urban Food Mapping.`,
+      image: "./Adrian Paulsen.jpeg",
     },
     {
       name: "Amanda Glaeser",
@@ -183,11 +189,11 @@ export default function Component() {
             <div className="grid gap-4">
               <h2 className="text-2xl font-bold tracking-tight">Our Values</h2>
               <ul className="text-gray-500 text-justify dark:text-gray-500 list-disc pl-6">
-                <li><b className="text-black">🌱 Equity</b>: We are committed to levelling the playing field for all learners, especially those from disadvantaged communities, ensuring fair access to career opportunities and support.</li>
-                <li><b className="text-black">💡 Innovation</b>: We embrace emerging technologies and creative methods, like AI and gamification, to pioneer new ways of delivering career guidance that speaks to today’s and tomorrow’s world.</li>
-                <li><b className="text-black">🤝 Collaboration</b>: We believe in the power of partnerships with schools, communities, government departments, the private sector, universities, and organisations to drive sustainable and collective impact.</li>
-                <li><b className="text-black">🔥 Youth Empowerment</b>: We are driven by a passion to help young people discover their voice, potential, and purpose through personalised career interventions.</li>
-                <li><b className="text-black">🧭 Integrity</b>: We act with transparency, accountability, and respect, earning the trust of learners, families, and partners as we guide the next generation.</li>
+                <li><b className="text-black">🌱Equity</b>:We are committed to levelling the playing field for all learners, especially those from disadvantaged communities, ensuring fair access to career opportunities and support.</li>
+                <li><b className="text-black">💡Innovation</b>:We embrace emerging technologies and creative methods, like AI and gamification, to pioneer new ways of delivering career guidance that speaks to today’s and tomorrow’s world.</li>
+                <li><b className="text-black">🤝Collaboration</b>:We believe in the power of partnerships with schools, communities, government departments, the private sector, universities, and organisations to drive sustainable and collective impact.</li>
+                <li><b className="text-black">🔥Youth Empowerment</b>:We are driven by a passion to help young people discover their voice, potential, and purpose through personalised career interventions.</li>
+                <li><b className="text-black">🧭Integrity</b>:We act with transparency, accountability, and respect, earning the trust of learners, families, and partners as we guide the next generation.</li>
               </ul>
             </div>
             <hr className="border-t-2 border-[#CA0101]" /> {/* Divider */}

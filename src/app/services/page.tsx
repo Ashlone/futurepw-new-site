@@ -10,7 +10,7 @@ export default function ServicesComponent() {
           </div>
           <div className="max-w-[700px] mx-auto text-gray-500 md:text-xl/relaxed dark:text-gray-400">
             <p className="text-justify">
-              We provide tailored support for learners in Grades 9–12, as well as interventions in primary schools through our AI and storytelling programmes.<br/><br/>
+              We provide tailored support for learners in Grades 6–13, including Cambridge and primary schools, through our comprehensive career guidance, AI and storytelling programmes, and more.<br/><br/>
               <b>Our Services Include:</b><br/>
               • Career counselling and assessments<br/>
               • Subject and degree guidance<br/>
@@ -27,7 +27,7 @@ export default function ServicesComponent() {
           <ServiceSection
             title="Career Counselling & Assessments"
             description="Personalised career counselling and scientifically validated assessments to help learners understand their strengths, interests, and aptitudes."
-            imageSrc="./service1.jpg"
+            imageSrc="./Career Counselling & Assessments1.jpeg"
           />
           <ServiceSection
             title="Subject & Degree Guidance"
@@ -45,14 +45,19 @@ export default function ServicesComponent() {
             imageSrc="./services.jpg"
           />
           <ServiceSection
-            title="Internship & Tertiary Preparation Support"
-            description="Support for learners transitioning to tertiary education or internships, including application guidance, interview preparation, and career psychology support."
-            imageSrc="./service4.jpg"
+            title="HPCSA Internships"
+            description="We offer career psychology internship hours accredited by the HPCSA for interns registered in Counselling, Industrial, Educational Psychology, and Psychometry."
+            imageSrc="./internships.jpeg"
           />
           <ServiceSection
             title="Educator & Parent Training"
             description="Workshops and resources for educators and parents to effectively support learners’ career development journeys."
-            imageSrc="./about.jpg"
+            imageSrc="./educator training.jpeg"
+          />
+          <ServiceSection
+            title="Research and Education"
+            description="We conduct research to develop innovative, evidence-based career guidance solutions tailored for under-resourced communities. Our educational programmes equip learners with the knowledge, skills, and confidence to make informed career choices. We collaborate with schools, universities, and professionals to ensure lasting impact."
+            imageSrc="./research.jpeg"
           />
         </div>
       </section>

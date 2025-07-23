@@ -9,8 +9,8 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8 px-4 md:px-12 max-w-7xl mx-auto w-full">
         {/* Navigation Links */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-6 w-full md:w-auto">
-          <Link href="/programs" className="text-sm md:text-xs hover:underline underline-offset-4">
-            Programs
+          <Link href="/programmes" className="text-sm md:text-xs hover:underline underline-offset-4">
+            Programmes
           </Link>
           <Link href="/services" className="text-sm md:text-xs hover:underline underline-offset-4">
             Services

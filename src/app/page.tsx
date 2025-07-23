@@ -110,7 +110,7 @@ export default function Component() {
         <div className="container max-w-3xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">OUR PURPOSE</h2>
           <p className="text-gray-700 md:text-lg">
-            Reducing youth unemployment through transformative career education. We see career guidance as a tool of social justice, and we are building an ecosystem where every learner—regardless of geography, gender, or economic background—has access to guidance, tools, and belief in their future.
+            Reducing youth unemployment through transformative career education. We see career guidance as a tool of social justice, and we are building an ecosystem where every learner regardless of geography, gender, or economic background has access to guidance, tools, and belief in their future.
           </p>
         </div>
       </section>
@@ -123,14 +123,15 @@ export default function Component() {
                 What We Offer
               </h2>
               <p className="max-w-[900px] text-justify word-spacing-2 text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed text-black">
-                We provide tailored support for learners in Grades 9–12, as well as interventions in primary schools through our AI and storytelling programmes. Our services are designed to break down systemic barriers and ensure all learners, regardless of background, can access meaningful career guidance and support. <br/><br/>
+                We provide tailored support for learners in Grades 6–13, including Cambridge and primary schools, through innovative career guidance, AI and storytelling programmes, and more. Our services are designed to break down systemic barriers and ensure all learners, regardless of background, can access meaningful career guidance and support. <br/><br/>
                 <b>Our Services Include:</b><br/>
                 • Career counselling and assessments<br/>
                 • Subject and degree guidance<br/>
                 • Personality and aptitude profiling<br/>
                 • Industry visits, guest speakers & workshops<br/>
-                • Internship and tertiary preparation support (Career Psychology)<br/>
-                • Educator & parent training on career topics
+                • HPCSA Internships<br/>
+                • Educator & parent training on career topics<br/>
+                • Research and Education<br/>
               </p>
             </div>
           </div>
@@ -171,7 +172,7 @@ export default function Component() {
                   className="h-12 w-12 rounded-lg"
                 />
               }
-              title="Internship & Tertiary Preparation Support"
+              title="HPCSA Internships"
               link="#"
             />
             <ServiceItem
@@ -179,6 +180,11 @@ export default function Component() {
                 <GoMilestone color="#093103" className="h-12 w-12 rounded-lg" />
               }
               title="Educator & Parent Training"
+              link="#"
+            />
+            <ServiceItem
+              icon={<FaBook color="#093103" className="h-12 w-12 rounded-lg" />}
+              title="Research and Education"
               link="#"
             />
           </div>

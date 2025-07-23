@@ -26,8 +26,8 @@ export default function Component() {
       title: "About",
     },
     {
-      link: "programs",
-      title: "Programs",
+      link: "programmes",
+      title: "Programmes",
     },
   ];
 
@@ -88,8 +88,8 @@ export default function Component() {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link className="text-black" href="/programs">
-            Programs
+          <Link className="text-black" href="/programmes">
+            Programmes
           </Link>
         </NavbarItem>
         <NavbarItem isActive>

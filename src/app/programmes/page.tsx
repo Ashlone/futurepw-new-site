@@ -5,7 +5,7 @@ export default function ProgramsPage() {
   const programs = [
     {
       title: '🌍 Career Pathfinder Programme',
-      description: `Our flagship, multi-phase intervention programme helps Grade 6–12 learners from disadvantaged backgrounds develop career maturity, self-efficacy, academic motivation and long-term career vision. Delivered in collaboration with schools and NGOs, the programme is implemented during LO classes and school holidays. This programme helps learners answer critical questions such as:
+      description: `Our flagship, multi-phase intervention programme helps Grade 6–13 learners from disadvantaged backgrounds develop career maturity, self-efficacy, academic motivation and long-term career vision. Delivered in collaboration with schools and NGOs, the programme is implemented during LO classes and school holidays. This programme helps learners answer critical questions such as:
       \n- Who am I?\n- What are my interests, skills, values, personality styles?\n- What do I want?\n- What are my options?\n- How do I get there?\n- What am I willing to do?\n- What is my plan to get to the goal?`,
       imageSrc: './programme1.jpg',
     },
@@ -17,12 +17,12 @@ export default function ProgramsPage() {
     {
       title: '🤖 AI in Education: Narrative Identity for Primary Learners',
       description: `Launching in 2027 and piloted in Gauteng and the Western Cape, this project, led by Dr Rubina Selthare, leverages AI-assisted storytelling to support primary school learners in understanding their future aspirations. This early intervention helps build career identity from a young age, using accessible digital tools.`,
-      imageSrc: './programme3.jpg',
+      imageSrc: './aiproject.jpeg',
     },
     {
       title: '🏞 Rural Career Development Project (Free State)',
       description: `A targeted intervention aimed at bridging the rural-urban career support divide. This project, led by Dr Shingirayi Chamisa, brings mobile career services, workshops, and mentorship to underserved learners in rural areas in the Free State province.`,
-      imageSrc: './programme4.jpg',
+      imageSrc: './rural.jpeg',
     },
   ];
 
@@ -31,7 +31,7 @@ export default function ProgramsPage() {
       <section className="w-full mt-20 py-6 md:py-12 lg:py-16">
         <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6">
           <div className="space-y-2">
-            <p className="text-3xl font-bold tracking-tighter sm:text-5xl">Our programs</p>
+            <p className="text-3xl font-bold tracking-tighter sm:text-5xl">Our programmes</p>
           </div>
         </div>
       </section>
