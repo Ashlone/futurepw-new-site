@@ -116,7 +116,7 @@ export default function Component() {
       name: "Dr S. F. Chamisa",
       title: "Rural Outreach Principal Investigator| Senior Lecturer (UFS)| Industrial Psychologist",
       bio: `Dr S. F. Chamisa is a registered Industrial Psychologist and Senior Lecturer at the University of the Free State, South Africa. She has over nine years of experience in teaching and research in Industrial Psychology, with additional professional exposure in the Mining and Energy sectors.\n\nHer areas of focus include Organisational Development, Talent Management, Leadership Development, and Career Counselling. Her research interests centre on Positive Psychology (particularly employee wellness and performance), Diversity and Inclusion, and Human Capital Development.\n\nShe promotes research-informed teaching and prepares students for global, evolving work environments. Dr Chamisa teaches and supervises at undergraduate and postgraduate levels, including Honours, Master’s, and PhD. She has published in both local and international journals and is a member of HPCSA, BPS, and APA.`,
-      image: "./dintle.jpg",
+      image: "./chamisa.png",
     },
     {
       name: "Adrian Paulsen",

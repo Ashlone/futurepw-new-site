@@ -58,9 +58,17 @@ interface Program {
 }
 
 function ProgramSection({ title, description, imageSrc }: Program) {
+  const isRiasec = title === '🧠 RIASEC Board Game (South Africa)';
   return (
     <div className="grid gap-4 text-center lg:items-center lg:justify-center lg:text-left">
-      <img alt={title} src={imageSrc} className="mx-auto w-full rounded-lg object-cover" />
+      {isRiasec ? (
+        <video controls className="mx-auto w-full max-w-2xl mt-4 rounded-lg shadow-lg h-80 md:h-[30rem] object-cover">
+          <source src="./riasec-demo.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      ) : (
+        <img alt={title} src={imageSrc} className="mx-auto w-full rounded-lg object-cover" />
+      )}
       <div className="space-y-2">
         <h3 className="text-2xl font-bold">{title}</h3>
         <p className="text-justify text-gray-500 dark:text-gray-400">{description}</p>
